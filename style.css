@@ -55,14 +55,14 @@ table, th, td {
     border-style: dotted;
     border-collapse: collapse;
 
-    margin-top: 3dvw;
+    margin-top: 2dvw;
     margin-bottom: 3dvw;
     margin-left: 3dvw;
     margin-right: 3dvw;
   }
 
 .normal-table {
-    border: 1px solid lightgreen;
+    border: 1px solid black;
 }
 
 h1 {
@@ -76,7 +76,6 @@ h1 {
     margin-bottom: 1dvw;
 }
 
-
 .introduction {
     text-align: justify;
     font-size: clamp(1dvw, 1rem, 5dvw);
@@ -86,6 +85,7 @@ h1 {
     margin-left: 1dvw;
     margin-right: 1dvw;
     margin-bottom: 1dvw;
+    margin-top: -2dvw;
 }
 
 .left-column {
