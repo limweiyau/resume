@@ -34,35 +34,7 @@ body {
     width: 100%;
     height: 100%;
     background-image: url("./matrixwave.webp");
-    opacity: 0.3;
-     
-}
-
-p {
-    color: lightgreen;
-    font-size: max(2.1dvw, 1dvwh);
-    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-    text-align: justify;
-}
-
-table, th, td {
-    color: lightgreen;
-    font-size: clamp(1dvw, 1rem, 5dvw);
-    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-    text-align: justify;
-
-    border: 1px solid lightgreen;
-    border-style: dotted;
-    border-collapse: collapse;
-
-    margin-top: 2dvw;
-    margin-bottom: 3dvw;
-    margin-left: 3dvw;
-    margin-right: 3dvw;
-  }
-
-.normal-table {
-    border: 1px solid black;
+    opacity: 0.2;
 }
 
 h1 {
@@ -78,29 +50,58 @@ h1 {
 
 .introduction {
     text-align: justify;
-    font-size: clamp(1dvw, 1rem, 5dvw);
+    font-size: min(5dvw, 2dvw);
     color: lightgreen;
     width: auto;
     padding: 2dvw;
-    margin-left: 1dvw;
-    margin-right: 1dvw;
+    margin-left: 1.5dvw;
+    margin-right: 1.5dvw;
     margin-bottom: 1dvw;
     margin-top: -2dvw;
-}
-
-.left-column {
-    width: 75dvw;
-    border: 1px solid black;
-}
-
-.right-column {
-    width: 25dvw;
-    text-align: right;
-    border: 1px solid black;
 }
 
 .category-content {
     display: none; /* Initially hidden */
     overflow: hidden;
     transition: max-height 0.3s ease-in-out;
+}
+
+.parent-content {
+    border: 1px solid lightgreen;
+    border-radius: 1dvw;
+    text-align: justify;
+    font-size: min(5dvw, 2dvw);
+    color: lightgreen;
+    width: auto;
+    padding: 1dvw;
+    margin-left: 3dvw;
+    margin-right: 3dvw;
+    margin-bottom: 1.5dvw;
+    margin-top: 0.5dvw;
+}
+
+.child-content-description {
+    /*border: 1px solid white;*/
+    display: inline-flex;
+    border-radius: 1dvw;
+    padding: 2dvw;
+    width: auto;
+}
+
+.child-child-content-description {
+    /*border: 1px solid white;*/
+    display: block;
+    border-radius: 1dvw;
+    padding: 2dvw;
+    margin-top: -5dvw;
+    margin-bottom: -2dvw;
+    width: auto;
+}
+
+.child-content-date {
+    /*border: 1px solid white;*/
+    display: inline-flex;
+    border-radius: 1dvw;
+    padding: 2dvw;
+    float: right
 }
