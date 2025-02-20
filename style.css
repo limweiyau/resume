@@ -81,27 +81,27 @@ h1 {
 }
 
 .child-content-description {
-    /*border: 1px solid white;*/
+    border: 1px solid white;
     display: inline-flex;
     border-radius: 1dvw;
-    padding: 2dvw;
+    padding: 1.5dvw;
     width: auto;
 }
 
 .child-child-content-description {
-    /*border: 1px solid white;*/
+    border: 1px solid white;
     display: block;
     border-radius: 1dvw;
-    padding: 2dvw;
+    padding: 1.5dvw;
     margin-top: -5dvw;
     margin-bottom: -2dvw;
     width: auto;
 }
 
 .child-content-date {
-    /*border: 1px solid white;*/
+    border: 1px solid white;
     display: inline-flex;
     border-radius: 1dvw;
-    padding: 2dvw;
+    padding: 1.5dvw;
     float: right
 }
