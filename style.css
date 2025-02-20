@@ -1,0 +1,96 @@
+.categoryheaders {
+    border: 1px solid lightgreen;
+    background-color: black; /* Ensures full opacity */
+    border-style: dotted;
+    text-align: center;
+    font-size: clamp(1dvw, 3rem, 5dvw);
+    color: lightgreen;
+    width: auto;
+    padding: 2dvw;
+    margin-left: 3dvw;
+    margin-right: 3dvw;
+    margin-bottom: 1dvw;
+    position: relative; /* Ensure it's above background */
+    z-index: 10; /* Higher than the background */
+    cursor: pointer; /* Indicate it's clickable */
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.categoryheaders:hover {
+    background-color: lightgreen; /* Change background color */
+    color: black; /* Change text color */
+    border-color: black; /* Optional: Change border color */
+}
+
+body {
+    background-color: black;
+}
+
+.bgimg {
+    content: "";
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url("./matrixwave.webp");
+    opacity: 0.3;
+     
+}
+
+p {
+    color: lightgreen;
+    font-size: max(2.1dvw, 1dvwh);
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    text-align: justify;
+}
+
+table, th, td {
+    color: lightgreen;
+    font-size: clamp(1dvw, 1rem, 5dvw);
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    text-align: justify;
+
+    border: 1px solid lightgreen;
+    border-style: dotted;
+    border-collapse: collapse;
+
+    margin-top: 3dvw;
+    margin-bottom: 3dvw;
+    margin-left: 3dvw;
+    margin-right: 3dvw;
+  }
+
+.normal-table {
+    border: 1px solid lightgreen;
+}
+
+
+.introduction-left-column {
+    width: 25dvw;
+    height: 5dvw;
+    padding: 1dvw;
+}
+
+.introduction-right-column {
+    width: 75dvw;
+    height: 5dvw;
+    padding: 10px;
+}
+
+.left-column {
+    width: 75dvw;
+    border: 1px solid black;
+}
+
+.right-column {
+    width: 25dvw;
+    text-align: right;
+    border: 1px solid black;
+}
+
+.category-content {
+    display: none; /* Initially hidden */
+    overflow: hidden;
+    transition: max-height 0.3s ease-in-out;
+}
