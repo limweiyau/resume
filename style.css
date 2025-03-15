@@ -22,7 +22,7 @@
     top: 0;
     left: 0;
     opacity: 0.5;  /* Adjust opacity for more darkness */
-    background: rgba(0, 0, 0, 1);  /* Darken with stronger opacity */
+    background: rgba(0, 0, 0, 0);  /* Darken with stronger opacity */
 }
 @keyframes sf-fly-by-1 {
     from {
@@ -102,7 +102,7 @@
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     align-items: center;
     justify-content: center;
-    background-color: rgba(0, 0, 0, 0.75);
+    background-color: rgba(0, 0, 0, 0.8);
     border-radius: 2rem;
 }
 
@@ -116,7 +116,7 @@
 .navBar {
     width: auto;
     height: 2rem;
-    background-color: rgba(196, 192, 223, 0.9);
+    background-color: rgba(196, 192, 223, 0.8);
     color: rgb(62, 10, 78);
     display: flex;
     justify-content: space-evenly;
@@ -143,7 +143,7 @@
     padding: 2rem;
     align-items: flex-start;
     justify-content: center;
-    background-color: rgba(0, 0, 0, 0.75);
+    background-color: rgba(0, 0, 0, 0.8);
     border-radius: 2rem;
 }
 
@@ -155,7 +155,7 @@
     padding: 2rem;
     align-items: flex-start;
     justify-content: center;
-    background-color: rgba(0, 0, 0, 0.75);
+    background-color: rgba(0, 0, 0, 0.8);
     border-radius: 2rem;
 }
 
@@ -167,7 +167,7 @@
     padding: 2rem;
     align-items: flex-start;
     justify-content: center;
-    background-color: rgba(0, 0, 0, 0.75);
+    background-color: rgba(0, 0, 0, 0.8);
     border-radius: 2rem;
 }
 
@@ -179,7 +179,7 @@
     text-align: center;
     border-radius: 10px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    margin-bottom: 3rem;
+    margin-bottom: 1.5rem;
 }
 
 .about-child {
