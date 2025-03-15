@@ -413,29 +413,6 @@ a {
     }
   }
 
-@media only screen and (max-width: 500px){
-    .introduction-parent {
-        height: 20rem;
-        padding: 10rem 2rem 10rem 2rem;
-    }
-    .navBarElements {
-        font-size: 0.5rem;
-        margin: -1rem;
-    }
-    .description {
-        font-size: 12px;
-    }
-    .introduction-child {
-        font-size: 1.5rem;
-    }
-    .description {
-        padding: 2rem 1rem 2rem 1rem; 
-    }
-    .masked-text {
-        font-size: 3.5rem;
-    }
-}
-
 .contactbutton {
     --border-color: linear-gradient(-45deg, #ffae00, #7e03aa, #00fffb);
     --border-width: 0.125em;
@@ -444,7 +421,7 @@ a {
     --bg: #080312;
     --color: #afffff;
     color: var(--color);
-    width: 15rem;
+    width: 20rem;
     cursor: pointer;
     /* use position: relative; so that BG is only for .btn */
     position: relative;
@@ -531,3 +508,28 @@ a {
     transition: 200ms;
   }
    
+@media only screen and (max-width: 500px){
+    .introduction-parent {
+        height: 20rem;
+        padding: 10rem 2rem 10rem 2rem;
+    }
+    .navBarElements {
+        font-size: 0.5rem;
+        margin: -1rem;
+    }
+    .description {
+        font-size: 12px;
+    }
+    .introduction-child {
+        font-size: 1.5rem;
+    }
+    .description {
+        padding: 2rem 1rem 2rem 1rem; 
+    }
+    .masked-text {
+        font-size: 3.5rem;
+    }
+    .contactbutton {
+      width: 10rem;
+    }
+}
