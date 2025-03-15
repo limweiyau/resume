@@ -444,7 +444,7 @@ a {
     --bg: #080312;
     --color: #afffff;
     color: var(--color);
-    width: 20rem;
+    width: 15rem;
     cursor: pointer;
     /* use position: relative; so that BG is only for .btn */
     position: relative;
