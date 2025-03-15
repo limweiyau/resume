@@ -2,251 +2,58 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title> Wei Yau's Portfolio </title>
+    <title> Portfolio </title>
     <link rel="stylesheet" href="style.css">
-    <script src="script.js"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@700&display=swap" rel="stylesheet">
 </head>
 <body>
-    <div class="bgimg"> </div>
-    
-    <h1> Hello! My name is Wei Yau! </h1>
+    <div id="home"></div>
+    <div class="bg"></div>
+    <div class="star-field"></div>
 
-    <div class="categoryheaders"> INTRODUCTION </div>
-    <div class="category-content">
-    <div class="introduction">  
-        <br> Hello, my name is Lim Wei Yau, and I’m excited to share my journey with you. This website serves as my digital resume, highlighting my education, industry experience, projects, and technical skills. <br>
-        <br> As a Software Engineering student at Singapore Management University, I am passionate about web development, game development, and technology-driven solutions. Through this portfolio, you can explore my academic achievements, professional experience, and personal projects. <br>
-        <br> Feel free to browse through my work, and don’t hesitate to reach out! 
-    </div> </div>
-
-    <div class="categoryheaders"> EDUCATION </div>
-    <div class="category-content">
-        <div class="parent-content">
-            <div class="child-content-description">
-                Singapore Management University, Singapore <br>
-                Bachelor of Science (Software Engineering) (WSDeg)
-            </div>
-            <div class="child-content-date">
-                Aug 2025 – Aug 2027
-            </div>
+    <div class="introduction-parent"> 
+        <div style="display: block;">
+            <div class="introduction-child"> <h2> Hi! I'm Wei Yau. <br> I'm a&nbsp;<span class="typewriter thick"></span></h2> </div>
+            <div class="introduction-child"> <button class="home-button" onclick="window.location.href='#navBar'"> View my work </a> </button> </div>
         </div>
-        <div class="parent-content">
-            <div class="child-content-description">
-                Singapore Management University, Singapore <br>
-                Bachelors of Business Management (BBM) <br>
-            </div>
-            <div class="child-content-date">
-                Aug 2023 – Aug 2025
-            </div>
-            <div class="child-child-content-description">
-                <ul><li>Magna Cum Laude</li></ul> 
-            </div>
-        </div>
-        <div class="parent-content">
-            <div class="child-content-description">
-                Nanyang Polytechnic, Singapore <br>
-                Diploma with Merit, Banking & Finance <br>
-            </div>
-            <div class="child-content-date">
-                Apr 2018 – Apr 2021
-            </div>
-            <div class="child-child-content-description">
-                <ul>
-                    <li>Graduated top 10% of cohort</li>
-                    <li>iMAS-Industry Midterm Scholarship </li>
-                    <li>Director's List for all applicable semester in AY2018/2019</li>
-                </ul>
+    </div>
+    <div class="navBar" id="navBar">
+        <div class="navBarElements"> <a href="#home"> Home </a></div> 
+        <div class="navBarElements"> <a href="#about"> About </a> </div>
+        <div class="navBarElements"> <a href="#projects"> Projects </a> </div>
+        <div class="navBarElements"> <a href="#contact"> Contact </a> </div>
+    </div>
+    <div class="about-parent" id="about"> 
+        <div class="display: block;">
+            <h1 class="masked-text"> <i> About </i> </h1>
+            <div class="description"> I'm a software engineer in the making, passionate about building innovative and practical solutions. <br> <br> With a background in business and a deep dive into tech, I blend strategy with engineering to create impactful products. Always learning, always evolving—my goal is to shape the future of technology while staying grounded in real-world needs. </div>
+            <div class="techStackContainer"> 
+                <div class="techStack"> HTML </div>
+                <div class="techStack"> JavaScript </div>
+                <div class="techStack"> PHP </div>
+                <div class="techStack"> CSS </div>
+                <div class="techStack"> Python </div>
+                <div class="techStack"> Tableau </div>
+                <div class="techStack"> Git </div>
+                <div class="techStack"> MS Office </div>
             </div>
         </div>
     </div>
-
-    <div class="categoryheaders"> ACADEMIC SCHOLARSHIP </div>
-    <div class="category-content">
-        <div class="parent-content">
-            <div class="child-content-description">
-                Nanyang Polytechnic, Singapore <br>
-                Investment Management Association of Singapore Industry Mid-Term Scholarship <br>
-            </div>
-            <div class="child-content-date">
-                2018 – 2021
-            </div>
-            <div class="child-child-content-description">
-                <ul>
-                    <li>Member of NYP Scholar's Capstone Programme</li>
-                    <li> Elected to Secretary for Scholar's Capstone Programme </li>
-                </ul>
-            </div>
+    <div class="project-parent" id="projects"> 
+        <div class="display: block;">
+            <h1 class="masked-text"> <i> Projects </i> </h1>
+            <div class="project-child"> To be updated </div>
         </div>
     </div>
-
-    <div class="categoryheaders"> INDUSTRY PROJECTS </div>
-    <div class="category-content">
-        <div class="parent-content">
-            <div class="child-content-description">
-                Project Caritas 9, Cambodia <br>
-                Boys’ Brigade Learning Centre, Digital Literacy, Product Manager <br> <br>
-            </div>
-            <div class="child-content-date">
-                Aug 2024 – Dec 2024
-            </div>
-            <div class="child-child-content-description">
-                Developed a database for BBLC using concepts of ER Modelling, Database Management, Spreadsheet Modelling and Analytics and Google Apps Script. <br><br>
-            </div>
+    <div class="contact-parent" id="contact"> 
+        <div class="display: block;">
+            <h1 class="masked-text"> <i> Contact </i> </h1>
+            <div class="contact-child"> <button class='contactbutton' onclick="window.location.href='https://www.linkedin.com/in/lim-wei-yau-371323161'"> LinkedIn </a> </div>
+            <div class="contact-child"> <button class='contactbutton' onclick="window.location.href='Resume.pdf'"> Resume </a> </div>
+            <div class="contact-child"> <button class='contactbutton' onclick="window.location.href='mailto:weiyau@live.com'"> Email </a> </div>
         </div>
     </div>
-
-    <div class="categoryheaders"> SCHOOL PROJECTS </div>
-    <div class="category-content">
-        <div class="parent-content">
-            <div class="child-content-description">
-                Warehouse Database Prototype, IKEA <br> <br>
-            </div>
-            <div class="child-content-date">
-                Aug 2024 – Dec 2024
-            </div>
-            <div class="child-child-content-description">
-                Developed a database prototype for IKEA warehouse using concepts of ER Modelling, Database Management, SQL, Spreadsheet Modelling and Analytics. <br> <br>
-            </div>
-        </div>
-    </div>
-
-    <div class="categoryheaders"> PERSONAL PROJECTS </div>
-    <div class="category-content">
-        <div class="parent-content">
-            <div class="child-content-description">
-                Web Development Course, The Odin Project <br> <br>
-            </div>
-            <div class="child-content-date">
-                Dec 2024 – Current
-            </div>
-            <div class="child-child-content-description">
-                Open source web development course which guides usage of HTML, CSS and Javascript <br> <br>
-            </div>
-        </div>
-        <div class="parent-content">
-            <div class="child-content-description">
-                Portfolio Website <br> <br>
-            </div>
-            <div class="child-content-date">
-                Feb 2025 - Current
-            </div>
-            <div class="child-child-content-description">
-                Developed a personal portoflio website using HTML, CSS and VanillaJS <br> <br>
-            </div>
-        </div>
-        <div class="parent-content">
-            <div class="child-content-description">
-                2D Game Development, Unity Engine <br> <br>
-            </div>
-            <div class="child-content-date">
-                Mar 2023 – Jul 2023
-            </div>
-            <div class="child-child-content-description">
-                Developed a 2D Action RPG Game Demo using Unity Engine and PlayMaker <br> <br>
-            </div>
-        </div>
-    </div>
-
-    <div class="categoryheaders"> RELEVANT COURSEWORK </div>
-    <div class="category-content">
-        <div class="parent-content">
-            <div class="child-content-description">
-                <ul>
-                    <li>Computational Thinking and Programming (IS1704)</li>
-                    <li>Operating Systems and Networking (SE101)</li>
-                    <li>Business Data Management (IS105)</li>
-                    <li>Web Application Development (IS113)</li>
-                    <li>Algorithms and Programming (IS115)</li>
-                </ul>
-            </div>
-        </div>
-    </div>
-
-    <div class="categoryheaders"> WORK EXPERIENCE </div>
-    <div class="category-content">
-        <div class="parent-content">
-            <div class="child-content-description">
-                Talent Acquisition Intern, TikTok Pte Ltd – Global Trust & Safety <br>
-                Admissions Executive, Singapore Management University <br>
-                Part-Time Tuition Teacher, Mind Matters <br>
-                Operations Assistant, Tan Tock Seng Hospital <br>
-                Fund Accountant (Intern), Mainstream Fund Services <br>
-            </div>
-            <div class="child-content-date">
-                Jan 2024 – Aug 2024 <br>
-                Jan 2023 – Present <br>
-                Apr 2023 – Oct 2023 <br>
-                Jun 2021 – Feb 2022 <br>
-                Mar 2020 - Aug 2020
-            </div> 
-        </div>
-    </div>
-
-    <div class="categoryheaders"> EXTRACURRICULARS </div>
-    <div class="category-content">
-        <div class="parent-content">
-            <div class="child-content-description">
-                Singapore Management University, Singapore <br>
-                SMU Project Caritas 9, Digital Literacy Co-Leader / Product Manager <br>
-                SMU x NYP Career Fair, Facilitator <br>
-                SMU Open House, Facilitator <br>
-                SMU Early Discovery Day, Facilitator <br>
-                SMU Discovery Day, Facilitator <br>
-                SMU SCIS Discovery Day, Facilitator <br>
-                Destination @ SMU, Facilitator <br>
-                SMU Outreach @ NUS High Career Fair , Facilitator <br>
-                <br>
-                Nanyang Polytechnic, Singapore <br>
-                NTU ProAms Debates Competition (International), Quarterfinalist <br>
-                NYP Internals Debates Competition, Champion <br>
-                NYP Internals Debates Competition, Overall Best Speaker <br>
-                NYP Open House, Facilitator <br>
-                NYP Lunchtime Talk (CADC x GeoCouncil) , Facilitator <br>
-                NYP Interschool Debates Competition, Facilitator <br>
-                Current Affairs & Debates Club, Elected Secretary <br>
-                NYP Interschool Debates Competition, Champion <br>
-                Member of Current Affairs & Debates Club
-            </div>
-            <div class="child-content-date">
-                Present <br>
-                2024 <br>
-                2024 <br>
-                2023 <br>
-                2023 <br>
-                2023 <br>
-                2023 <br>
-                2023 <br>
-                2023 <br>
-                <br>
-                2020 <br>
-                2020 <br>
-                2020 <br>
-                2020 <br>
-                2019 <br>
-                2019 <br>
-                2019 <br>
-                2019 <br>
-                2018 <br>
-                2018 <br>
-
-            </div> 
-        </div>
-    </div>
-
-    <div class="categoryheaders"> SKILLS </div>
-    <div class="category-content">
-        <div class="parent-content">
-            <div class="child-content-description">
-                Languages (Linguistic): English (Professional), Chinese (Conversational) <br>
-                Languages (Computational): Python, SQL, HTML, CSS, PHP <br>
-                Tech Stack: Git/GitHub, VSCode, Jupyter <br>
-                Programs: Microsoft Office, Tableau, PowerBI, Unity (2D) <br>
-                Soft skills: Stakeholder Management, Public Speaking, Critical Thinking
-            </div> 
-        </div>
-    </div>
-    <br><br><br><br><br><br><br><br> 
 </body>
 </html>
+
